@@ -28,3 +28,7 @@ parseObject works with Promises.
 
 The result is an multidimensional array. Each array contains the key and value:
 [ 0: [ "key": "ObjectKeyName", "value": "ObjectKeyValue" ] ]
+
+# Use Case
+
+If you want to render an object in your frontend code you can add new attributes to your object server side and render them into your frontend without the need to recompile. E. g. you can display dynamic lists in your VueJS-Frontend. Example: [Smarthome Kompendium](https://www.smarthome-kompendium.com/komponenten/philips/philips-hue-tuar) (Technical data part of the component on this website).
