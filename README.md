@@ -19,3 +19,12 @@ setTechnical(value) {
     {{ element.value }}
   </v-col>
 </v-row>
+
+# Details
+
+The method parseObjects expects an object as first input. Second input is a callback function.
+The callback function sets the variables into the vue file in scripts part.
+parseObject works with Promises.
+
+The result is an multidimensional array. Each array contains the key and value:
+[ 0: [ "key": "ObjectKeyName", "value": "ObjectKeyValue" ] ]
